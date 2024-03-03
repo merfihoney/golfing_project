@@ -2,9 +2,8 @@
 
 ## Participants
 
-- Adilkhan Yeslyambek
-- Yersultan Serimbetov
-- Tayir Taishanov
+- Azhibekova Merey
+- Kazi Zhaniya
 
 ## Overview
 
