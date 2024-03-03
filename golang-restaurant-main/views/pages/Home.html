@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+{{template "head.html" .HeadData}}
+<body>
+{{template "header.html" .HeaderData}}
+
+<header class="container-fluid text-center py-4 header">
+    <h1>Welcome to QuickDish Delivery</h1>
+</header>
+
+<section class="about-us">
+    <div class="container">
+        <h2>About QuickDish</h2>
+        <p>At QuickDish, we bring the <span class="highlight">world to your doorstep</span>. As a premier dish delivery company, we specialize in delivering a diverse array of gourmet dishes from renowned <span class="highlight">local and international restaurants</span> directly to you. Whether you're craving <span class="highlight">Italian, Japanese, Indian, or traditional American cuisine</span>, QuickDish serves up a world of flavors with just a few clicks.</p>
+        <p>Our mission is to make dining at home as <span class="highlight">exciting as dining out</span>. With our easy-to-use app and website, you can explore menus, read reviews, and order your favorite dishes in minutes. Plus, our dedicated team ensures that your meals arrive <span class="highlight">hot, fresh, and ready to enjoy</span>.</p>
+        <p>Experience the joy of dining without limits with QuickDish. <span class="highlight">Wherever you are, whatever you crave</span>, we deliver delight right to your door. Start your culinary adventure with us today!</p>
+    </div>
+</section>
+
+<section class="advantages py-4">
+    <div class="container">
+        <h2 class="advantage-title">Why Choose QuickDish?</h2>
+        <ul>
+            <li><strong>Unparalleled Variety:</strong> An extensive selection of cuisines to satisfy any craving.</li>
+            <li><strong>Seamless Ordering:</strong> A user-friendly platform for stress-free ordering.</li>
+            <li><strong>Fast Delivery:</strong> Swift service that respects your time.</li>
+            <li><strong>Quality Guarantee:</strong> Meals prepared and delivered with care.</li>
+            <li><strong>Loyalty Rewards:</strong> Earn points with every order and enjoy exclusive discounts.</li>
+        </ul>
+    </div>
+</section>
+
+<section class="reviews">
+    <div class="container">
+        <h2 class="text-center mb-5">Customer Testimonials</h2>
+        <div class="row g-4">
+            <div class="col-md-6 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400" class="card-img-top" alt="Happy customer image">
+                    <div class="card-body">
+                        <h5 class="card-title">Alex Johnson</h5>
+                        <p class="card-text">"QuickDish has changed the way we do dinner at home. Amazing variety and the food always arrives perfectly. It's like having the city's best restaurants in my living room."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=400" class="card-img-top" alt="Family enjoying food">
+                    <div class="card-body">
+                        <h5 class="card-title">Samantha Lee</h5>
+                        <p class="card-text">"I love the convenience of QuickDish. Whether I'm ordering lunch for work or planning a special dinner, they always deliver. Great service and even greater food selection!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{{template "footer.html"}}
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

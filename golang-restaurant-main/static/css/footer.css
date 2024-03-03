@@ -1,0 +1,16 @@
+footer.footer {
+    background-color: #343a40;
+    color: #fff;
+}
+footer.footer h3 {
+    color: black;
+}
+footer.footer a {
+    color: black;
+}
+footer.footer a:hover {
+    color: black;
+}
+.text-muted {
+    color: black;
+}
